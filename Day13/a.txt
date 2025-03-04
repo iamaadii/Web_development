@@ -1,0 +1,22 @@
+Entities:
+    It is used for showing any tag as it is.
+    It is also used for drawing symbol like copyright,dollar,euro etc.
+    &nbsp: for adding a space
+
+pre tag:
+    for adding spaces
+
+code tag: 
+    It is used for writting any code.
+    We can also write code without it by using only pre tag.But It
+    is recommended to use it.
+
+blockquote tag: It is used for writting quotation text.
+q tag: It is used for short quotation.
+<abbr>: tag defines an abbreviation or an acronym
+<address> : tag defines the used for address.
+<cite> : tag defines the title of a creative work 
+         The text in the <cite> element usually renders in italic.
+
+BDO stands for Bi-Directional Override
+The HTML <bdo> tag is used to override the current text direction:

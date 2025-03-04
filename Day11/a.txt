@@ -1,0 +1,4 @@
+Semantic tags:
+    It tells the browser and user about the use of each and every tag.
+    It is very important for ranking any website. 
+    It is used to enhance SEO(search engine optimization) and accessibility.

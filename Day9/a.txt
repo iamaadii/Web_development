@@ -1,0 +1,8 @@
+Id: A unique value given to each elements.
+    It cannot be same for more than one elements.
+    We can access element through id in css using #id_name
+
+
+class: It can be given to more than one elements.
+       A element can also belongs to more than one class
+       We can access element through class in css using .class_name

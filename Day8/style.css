@@ -1,0 +1,24 @@
+p{
+    background-color: red;    
+}
+
+a{
+    background-color: rgb(57, 52, 21);
+    color: yellow;
+}
+
+div{
+    background-color: greenyellow;
+}
+
+span{
+    background-color: blue
+}
+
+h1{
+    background-color: rgb(255, 0, 0);
+}
+
+table{
+    background-color: pink;
+}

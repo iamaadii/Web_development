@@ -1,0 +1,2 @@
+CSS:
+    Stands for cascading style sheets.

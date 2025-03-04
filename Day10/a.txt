@@ -1,0 +1,38 @@
+audio,video,svg are inline elements.
+
+Attributes of video tag:
+        height and width: to specify dimension of video.
+        controls: To add control button like play,pause,volume etc.
+        poster: for adding video poster or we can say thumbnail.
+
+This all Attributes will be used after control Attribute
+        src: for providing path of the video
+        autoplay: To play the video automatically when the page loads.
+        loop: to repeat the video.
+        muted: to mute video by-default.
+
+
+
+audio tag: for adding any audio on the page.
+           It is mandatory to use controls Attribute otherwise audio will not show.
+
+Attributes of audio tag are:
+autoplay: To play the audio automatically when the page loads.
+controls: To add control button like play,pause,volume etc.
+loop: to repeat the audio.
+muted: to mute audio by-default.
+preload: specify if and how the audio should be loaded when page loads.
+        preload can have following values:
+        none: to not load anything.
+        metadata: to load metadata only.
+        auto: to load the whole audio.
+
+svg tag:
+    SVG stands for Scalable Vector Graphics.
+    SVG defines vector-based graphics in XML format.
+    SVG graphics are scalable, and do not lose any quality if they are zoomed or resized.
+    SVG is supported by all major browsers.
+
+iframe tag:
+    It is used to embedded another website into our website.
+    We can also embedded yt video also.
