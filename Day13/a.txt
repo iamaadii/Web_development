@@ -1,7 +1,7 @@
 Entities:
     It is used for showing any tag as it is.
     It is also used for drawing symbol like copyright,dollar,euro etc.
-    &nbsp: for adding a space
+    &nbsp: for adding a single space
 
 pre tag:
     for adding spaces

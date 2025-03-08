@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector  */
+        div{
+            background-color: yellow; 
+        }
+       
+        /*class selector*/
+        .red{
+            background-color: red;
+        }
+
+        /*id selector*/
+        #green{
+            background-color: rgb(55, 255, 0);
+        }
+
+        /*child selector*/
+        div>p{
+            background-color: blue;
+        }
+
+        /*descendant selector*/
+        div h{
+            background-color:orange;
+        }
+            
+        /*Universal selector*/
+        *{
+            margin:0;
+        }
+
+        /*pseudo selector*/
+        a:visited{
+            color:yellow;
+        }
+
+        a:link{
+            color:red;
+        }
+
+        a:active{
+            background-color:blue;
+        }
+
+        a:hover{
+            background-color: purple;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+   <div>I am a first div</div>
+   <div class="red">I am a second div</div>
+   <div id="green">I am a third div</div>
+
+   <div>
+    <p>I am a paragraph</p>
+   </div>
+
+   <div>
+    <span> 
+        <h>I am a heading</h>
+    </span>
+   </div>
+
+   <a href="https://www.instagram.com/">Open instagram</a>
+
+
+</body>
+</html>
