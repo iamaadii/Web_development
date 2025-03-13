@@ -4,37 +4,59 @@ CSS selectors:
 types of selectors:
     1. element selector: 
         It is used to select an html element by its name.
-        Example: p {color: red;} selects all the paragraphs in the html document.
+            Example: p {color: red;} selects all the paragraphs in the html document.
 
     2. id selector:
         It is used to select an html element by its id.
-        Example: #header {color: red;} selects the element with id "header"
+            Example: #header {color: red;} selects the element with id "header"
 
     3. class selector:
         It is used to select an html element by its class.
-        Example: .header {color: red;} selects all the elements with class "header"
+            Example: .header {color: red;} selects all the elements with class "header"
 
     4. child selector:
         It is used to select an element that is a child of another element.
-        Example: ul > li {color: red;} selects all the list items that are direct child of ordered list
+            Example: ul > li {color: red;} selects all the list items that are direct child of ordered list
     
     5. descendant selector:
         It is used to select an element that is a descendant of another element.
-        Example: ul li {color: red;} selects all the list items that are descendants of ordered list
+            Example: ul li {color: red;} selects all the list items that are descendants of ordered list
 
     6. universal selector:
         It is used to select all elements in the document.
-        Example: * {color: red;} selects all the elements in the document.
+            Example: * {color: red;} selects all the elements in the document.
+    
+    7. Group Selector
+        The group selector is used to minimise the code. Commas "," are used to 
+        separate each selector in a grouping.
+            Example: div,p,a{ color: red;} 
 
-    7. pseudo selector:
-    It is used to select an element based on a condition.
-    Example: a:visited {color: red;} for making link color red after visiting 
-    Example: a.link{ color : pink} for making link color to pink before visiting.
-    Example: a:active{ background-color: grey} click krne pe background color grey show krega
-    Example: a:hover{ background-color: grey} sirf cursor le jane se background color grey show krega
-    Example: p:first-child{ background-color: yellow} jha jha paragraph first child hoga  wha backgroundcolor yellow ho jayega.
-    Example: p:last-child{ background-color: yellow} jha jha paragraph last child hoga wha backgroundcolor yellow ho jayega.
+    8. [attribute] Selector
+        It is used to select elements with a specified attribute.
+            Ex: a[target] {background-color: yellow; } selects all the anchor tags with a target attribute.
 
-    7. sibling selector:
+    9. [attribute="value"] Selector
+        It is used to select elements with a specified attribute and value.
+            Ex: a[target="_blank"] { background-color: yellow; } selects all the anchor tags with a target attribute and value "_blank".
+
+    10. pseudo  class selector:
+        It is used to select an element based on a condition.
+            Example: a:visited {color: red;} for making link color red after visiting 
+            Example: a:link{ color : pink} for making link color to pink before visiting.
+            Example: a:active{ background-color: grey} click krne pe background color grey show krega
+            Example: a:hover{ background-color: grey} sirf cursor le jane se background color grey show krega
+            Example: p:first-child{ background-color: yellow} jha jha paragraph first child hoga  wha backgroundcolor yellow ho jayega.
+            Example: p:last-child{ background-color: yellow} jha jha paragraph last child hoga wha backgroundcolor yellow ho jayega.
+
+    11. sibling selector:
         It is used to select an element that is a sibling of another element.
-        Example: h1 + p {color: red;} selects all the paragraphs that are immediately following
+            Example: h1 + p {color: red;} selects all the paragraphs that are immediately following after h1.
+
+    12. pseudo element selector:
+        It is used to style specific parts of an element.
+            example:  p::first-line {color: red;} selects the first line of a paragraph. It can only be applied to block-level elements.
+            example:  p::first-letter {color: red;} selects the first letter of a paragraph. It can only applied with block elements.
+            example:  p::before {content: "Hello"; color: red;} It can be used to insert some content before the content of an element.
+            example:  p::after {content: "Hello"; color: red;} It can be used to insert some content after the content of an element.
+            example:  ::marker { color: red;} to selects the markers of list items.
+            example:  ::selection { background-color: yellow;} It matches the portion of an element that is selected by a user.(means jiss bhi content pe user click krega uska background color yellow ho jayega

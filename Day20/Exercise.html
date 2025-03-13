@@ -1,0 +1,30 @@
+<!-- Write html and css code to style a paragraph inside a div which contains 5 other 
+paragraphs.The first paragraph must have background color yellow and text color red. 
+The other paragraphs must have background color blue and text color white.
+Do not change the html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p:first-child{
+                color: red;
+                background-color: yellow;
+                font-size: 10px;
+            }
+            p+p{
+                background-color: blue;
+                color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, rem.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, rem.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, rem.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, rem.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, rem.</p>
+        </div>
+    </body>
+</html>

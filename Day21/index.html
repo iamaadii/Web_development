@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                background-color: green !important;
+            }
+            
+            
+            /* Element selector specificity: 1*/
+            h1{
+                background-color: blue;
+            }
+            
+            
+            /* specificity= element+class = 1+10=11*/
+            h1.cpink{
+                background-color: pink;
+            }
+
+
+            /* id selector specificity: 100*/
+            #m1{
+                background-color:blueviolet;
+            }
+
+
+            /* class selector specificity: 10*/
+            .cred{
+                background-color: red;
+            }
+
+
+            /* attribute selector specificity: 10*/
+            [data=x]{
+                background-color: aqua;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <p style="background-color: yellow;">This is a paragraph</p>
+
+        <h1 id='m1' class="cred cpink" data="x">This is a heading</h1>
+    </body>
+</html>

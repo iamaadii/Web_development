@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css box model</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .box{
+                background-color: aqua;
+            }
+            .box1{
+                color: yellow;
+                padding: 10px;
+                margin: 25px;
+                border: 2px solid blue;
+                height: 200px; /*content height would be only 200px*/
+                box-sizing: border-box; /*content+padding+border would be 200px*/
+            }
+            .box2{
+                color: red;
+                padding: 10px;
+                border: 2px solid black;
+                margin: 25px;
+                height: 200px;
+                box-sizing:border-box;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box box1">I am a box</div>
+        <div class="box box2">I am another box</div>
+    </body>
+</html>

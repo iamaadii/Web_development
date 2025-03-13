@@ -1,0 +1,31 @@
+colors:
+In CSS, colors can be represented in following ways:
+    1) Color keywords
+    2) Hexadecimal notation:
+            The hex code consists of a hash(#) symbol followed by six characters. These six characters are arranged into a set of three pairs (RR, GG, and BB).
+            Each character pair defines the intensity level of the colour, where R stands for red, G stands for green, and B stands for blue.
+            The intensity value lies between 00 (no intensity) and ff (maximum intensity).
+
+            Breaking the Character Set (RRGGBB):
+                RR: RR defines the intensity of color red, ranging from 00 (no red) to FF (maximum red).
+                GG: GG defines the intensity of color Green, with values from 00 (no green) to FF (full green).
+                BB: GG defines the intensity of color Blue, varying from 00 (no blue) to FF (full blue).
+    3) RGB
+        RGB stands for “Red, Green, Blue,” and it defines the colour value by taking three (red, green, blue) arguments.
+        Each argument value lies between 0 and 255.
+    4) RGBA
+        Similar to RGB, in RGBA, a stands for alpha value, which defines the opacity of the color. The alpha value lies between 0 and 1.
+    5) HSL
+        HSL stands for hue, saturation, and lightness. This is another way to set colour properties.
+
+        Breaking each keyword:
+
+        Hue(h)
+            Hue represents the type of color. It is measured in degrees, and its value lies from 0 to 360.
+            0 degree represents black, 120 degree is for green, and 360 degree is for blue.
+        Saturation (S):
+            Saturation controls the intensity or purity of the color. It is measured in percentage, and its value lies between 0% and 100%.
+            0% saturation is no color (grayscale),  and 100% saturation is the most intense colour.
+        Lightness (L):
+            Lightness determines how light or dark the colour is. It is measured in percentage, and its value lies between 0% and 100%.
+            0% lightness represents pure black, 50% lightness represents normal colour, and 100% lightness is pure white.

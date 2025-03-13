@@ -35,7 +35,7 @@
             margin:0;
         }
 
-        /*pseudo selector*/
+        /*pseudo class selector*/
         a:visited{
             color:yellow;
         }
@@ -52,7 +52,27 @@
             background-color: purple;
         }
         
+        /* Attribute selector*/
+        a[target]{
+            background-color: pink;
+        }
+        
+            /* or */
 
+        /* [target]{
+            background-color: pink;
+        } */
+
+
+        /* Attribute value selector*/
+        a[data='_hello']{
+            background-color: green;
+        }
+            /* or */
+
+        /* [data='_hello']{
+            background-color: green;
+        } */
 
     </style>
 </head>
@@ -71,8 +91,11 @@
     </span>
    </div>
 
-   <a href="https://www.instagram.com/">Open instagram</a>
+   <a href="https://www.instagram.com/">Open instagram</a><br>
 
+   <a hred="https://www.whatsapp.com/" target>Open Whatsapp</a><br>
+
+   <a hred="https://www.youtube.com/" data="_hello">Open youtube</a>
 
 </body>
 </html>

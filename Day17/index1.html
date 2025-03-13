@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            /* pseudo element*/
+            p::first-line{
+                color: red;
+            }
+
+            h1::first-letter{
+              color: blue;  
+            }
+
+            h2::before{
+                content: "Hello";
+                color: red;
+            }
+
+            h3::after{
+                content: "World";
+                color: aqua;
+            }
+
+            ::marker {
+                color: red;
+            }
+
+            ::selection{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet conse ipsum dolor sit, amet consectetur adipisicing elit. Omnis alias ratione iure, id facere consequatur aliquam sint sunt. Voluptatum facere minima totam iusto quasi dignissimos, eveniet quis ratione molestias aut numquam sit veritatis explicabo nesciunt fugit in nemo, id molestiae ad, debitis est. Nam, reprehenderit velit? Magni deleniti consequatur dolor odit incidunt laboriosam soluta dolore.</p>
+        <h1>This is first heading </h1>
+        <h2> This is second heading </h2>
+        <h3> This is second heading </h3>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          
+          <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ol>
+        
+    </body>
+</html>
