@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .box{
+                border: 2px solid black ;
+                width: 80vw;
+                height: 10vh; /* 10% of viewport height*/
+                margin:auto;
+                background-color: aqua;
+            }
+            .container{
+                border: 2px solid black ;
+                width: 80vw; /* 80% of viewport width*/
+                min-height: 80vh; /* min 80% of viewport height*/
+                margin: 23px auto;
+                background-color: aqua;
+            }
+
+            .container>p{
+                font-size: 1.5em; /* for inceasing font-size of paragraph 1.5 times than .container class size*/
+                /* font-size: 2rem;  for increasing font size of paragraph 2 times than then the size of root element that is html*/
+                width: 50%; /* width of paragraph is eql to the 50% width of div*/
+                border: 2px solid red;
+            }
+
+            .mycont{
+                border: 2px solid black ;
+                margin: 23px auto;
+                color:rgb(0, 0, 0);
+                font-size: 22px;
+                box-sizing: border-box;
+                width: 80vw;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            This is a box
+        </div>
+
+        <div class="container">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nemo perspiciatis aspernatur at fuga temporibus nobis explicabo veritatis accusantium? Dolorum ipsam quam sit ducimus veniam qui eos unde architecto in perferendis voluptates facere impedit, minus veritatis dolor esse placeat, nesciunt illo debitis itaque harum, rerum adipisci cupiditate. Ea dignissimos at, amet dicta ipsa deleniti. Labore voluptatem harum sequi tenetur, iusto explicabo mollitia temporibus maiores expedita dolorem modi ipsa animi praesentium enim consequatur voluptatibus tempora excepturi? Voluptate laborum unde quo porro aspernatur totam sapiente cumque! Quo praesentium obcaecati rerum ut culpa corporis exercitationem illo soluta aut ex, similique molestiae excepturi nemo!
+            </p>
+        </div>
+
+        <div class="mycont">
+            I am another container
+        </div>
+
+    </body>
+</html>

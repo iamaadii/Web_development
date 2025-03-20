@@ -1,0 +1,25 @@
+CSS Units
+    => CSS has several different units for expressing a length.
+    => Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+    
+    There are two types of length units:
+    1. Absolute units:
+        => The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
+        => Absolute length units are not recommended for use on screen, because screen sizes vary so much.
+                cm - centimetres (1 cm = 37.8 px)
+                mm - millimetres
+                in - inches (1 in = 96 px = 2.54cm)
+                px - pixel (1px = 1/96th of 1 in)
+                pt - points (1pt = 1/72th of 1 in)
+                pc - picas (1pc = 12 pt)
+    
+    2. Relative units:
+        em - Relative to the font size of the parent element. Eg: 5em means the size would be 5 times the current font size.
+        ex - Relative to X height of the existing font
+        ch - Relative to the width/ radius of the character “0”.
+        rem - Relative to the font size of the root element.
+        vw - Relative to 1% of the width of the viewport. (Viewport is the area of the website visible to the user.)
+        vh -  Relative to 1% of the height of the viewport
+        vmin - Relative to 1% of viewport's* smaller dimension	
+        vmax - Relative to 1% of viewport's* larger dimension
+        % - Relative to the parent element’s size.
