@@ -8,6 +8,4 @@ if we want to add margin, padding and border from top on the converted inline el
 
 display:none for removing content along with space.
 visibility:hidden for removing only content not space.
-
-
 display:flex and justify-content:center for alligning content in the center
