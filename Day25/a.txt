@@ -1,0 +1,52 @@
+list-style:none; for removing marker from list
+list-style-position:inside; for placing marker inside the list initially it is outside the list
+list-style-image:url(''); for using some image in place of marker
+list-style-type:"😐"; for adding any emoji in place of marker.
+
+
+flexbox: 
+    Flexbox is a layout method for arranging items in rows or columns.
+    Flexbox is short for the Flexible Box Layout module.
+
+
+Flexbox Components: A flexbox always consists of:
+    a Flex Container - the parent (container) <div> element
+    Flex Items - the items inside the container <div>
+
+
+The CSS properties we use for the flex container are:
+    flex-direction
+    flex-wrap
+    flex-flow
+    justify-content
+    align-items
+    align-content
+
+
+flex-direction: 
+    It specifies the display-direction of flex items in the flex container
+    The flex-direction property can have one of the following values:
+        row: It is the default value, and it displays the flex items horizontally (from left to right)
+        column: It displays the flex items vertically (from top to bottom)
+        row-reverse: It displays the flex items horizontally (but from right to left)
+        column-reverse: It displays the flex items vertically (but from bottom to top)
+
+flex-wrap:
+    It specifies whether the flex items should wrap or not, if there is not enough space for them on one flex line.
+    The flex-wrap property can have one of the following values:
+        nowrap: It specifies that the flex items will not wrap (this is default)
+        wrap: It specifies that the flex items will wrap if necessary
+        wrap-reverse: It specifies that the flex items will wrap if necessary, in reverse order
+
+flex-flow: It is a shorthand property for setting both the flex-direction and flex-wrap properties
+    Example: flex-flow: row wrap;
+
+justify-content:
+    It is used to align the flex items when they do not use all available space on the main-axis (horizontally).
+    The justify-content property can have one of the following values:
+        center: It positions the flex items in the center of the container
+        flex-start: It positions the flex items at the beginning of the container (this is default)
+        flex-end: It flex-end value positions the flex items at the end of the container
+        space-around: It displays the flex items with space around them
+        space-between: It displays the flex items with space between them
+        space-evenly: It displays the flex items with equal space around them

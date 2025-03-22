@@ -15,12 +15,12 @@ types of selectors:
             Example: .header {color: red;} selects all the elements with class "header"
 
     4. child selector:
-        It is used to select an element that is a child of another element.
-            Example: ul > li {color: red;} selects all the list items that are direct child of ordered list
+        The child combinator selects all elements that are the children of a specified element.
+            Example: div>p { background-color: yellow;} selects all <p> elements that are children of a <div> element
     
     5. descendant selector:
-        It is used to select an element that is a descendant of another element.
-            Example: ul li {color: red;} selects all the list items that are descendants of ordered list
+        The descendant combinator matches all elements that are descendants of a specified element.
+            Example: div p { background-color: yellow;} selects all <p> elements inside <div> elements: 
 
     6. universal selector:
         It is used to select all elements in the document.
@@ -49,8 +49,10 @@ types of selectors:
             Example: p:last-child{ background-color: yellow} jha jha paragraph last child hoga wha backgroundcolor yellow ho jayega.
 
     11. sibling selector:
-        It is used to select an element that is a sibling of another element.
-            Example: h1 + p {color: red;} selects all the paragraphs that are immediately following after h1.
+            The next sibling combinator is used to select an element that is directly after another specific element.
+            Sibling elements must have the same parent element, and "adjacent" means "immediately following".           
+                Example: div + p { background-color: yellow;} selects the first <p> element that are placed immediately after <div> elements
+
 
     12. pseudo element selector:
         It is used to style specific parts of an element.
