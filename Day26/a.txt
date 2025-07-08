@@ -1,9 +1,0 @@
-overflow: scroll; for adding scroll bar
-overflow: auto; for adding a scroll bar if overflow is there
-white-space: nowrap; for printing text only in one-line
-overflow:hidden; for hiding overflow contents
-text-overflow: ellipsis; for adding dot in place of overflow contents
-overflow:clip; we cannot scroll scrollbar.
-overflow-x: hidden; for hidding scrollbar on x-axis
-overflow-y: hidden; for hidding scrollbar on y-axis
-overflow: scroll hidden; for adding both overflow-x and overflow-y value together
