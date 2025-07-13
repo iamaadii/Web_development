@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        .boxes::before{
+            content: "New inserted content";
+        }
+        .boxes::after{
+            content: "New inserted content";
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        .box::first-letter{
+            color: rgb(162, 219, 20);
+            font-size: 34px;
+        }
+        input::placeholder{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">I am first box</div>
+        <div class="box">I am second box</div>
+        <div class="box">I am third box</div>
+        <input type="text" placeholder="Enter your name : ">
+    </div>
+</body>
+</html>
