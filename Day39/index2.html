@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                border: 2px solid black;
+                display: grid;
+                grid-template-areas: "nav nav nav" "side article article" "footer footer footer";
+
+            }
+            .items{
+                border: 2px solid red;
+                height: 45px;
+            }
+            .item1{
+                grid-area: nav;
+            }
+            .item2{
+                grid-area: side;
+            }
+            .item3{
+                grid-area: article;
+            }
+            .item4{
+                grid-area: footer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="items item1">1</div>
+            <div class="items item2">2</div>
+            <div class="items item3">3</div>
+            <div class="items item4">4</div>
+            <div class="items item5">5</div>
+        </div>
+    </body>
+</html>
