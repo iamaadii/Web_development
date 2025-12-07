@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+     
+      navbar{
+        background-color: rgb(233, 230, 230);
+        height: 70px;
+        margin: 10px 90px;
+        border-radius: 5px;
+        border: 1px solid rgb(216, 212, 212);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+     
+      ul{
+        display: flex;
+        gap: 65px;
+      }
+      ul li{
+        list-style : none;
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+      }
+      .logo img{
+        width: 140px;
+        margin-left: 20px;
+      }
+      .right{
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .download{
+        display: flex;
+        background-color: rgb(254, 176, 30);
+        padding-left: 18px;
+        padding-right: 18px;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      }
+      
+      .lang{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .search img{
+        display: flex;
+        margin-right: 18px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <navbar>
+        <div class="logo"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_Site-Logo.png" /></div>
+
+        <ul>
+          <li class="product">Products <img src="chevron-down.svg"/></li>
+          <li class="price">Pricing <img src="chevron-down.svg"/></li>
+          <li class="Resources">Resources <img src="chevron-down.svg"/></li>
+          <li class="company">Our company <img src="chevron-down.svg"/></li>
+        </ul>
+
+        <div class="right">
+            <div class="download"><p>Download</p></div>
+            <div class="lang"><img src="globe.svg"/>English</div>
+            <div class="search"><img src="search.svg"/></div>
+        </div>
+      </navbar>
+    </header>
+  </body>
+</html>
