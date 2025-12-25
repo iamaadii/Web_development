@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        #container{
+            height: 20vh;
+            border: 2px solid black;
+            display: flex;
+            background-color: black;
+            margin-bottom: 40px;
+        }
+        .image{
+            margin-top:14px;
+            margin-bottom: 14px;
+            width: 14vw;
+            margin-left: 22px;
+            margin-right: 10px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit:fill;
+            border-radius: 7px;
+        }
+        .details{
+            width: 82vw;
+            margin-top:14px;
+            color: white;
+            position: relative;
+            top: -22px;
+        }
+        .details p{
+            font-size: large;
+            font-weight: 900;
+        }
+        .image span{
+            position: relative;
+            left: 165px;
+            bottom: 30px;
+            border-radius: 5px;
+            color: white;
+            padding: 4px;
+            background-color: rgb(69, 67, 67);
+            font-weight: 900;
+        }
+        </style>
+    </head>
+    <body id="bdy">
+        <div id="container">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDf-xrqgUw55JSfKsoykKVhngkzRA">
+                <span class="duration">31:20</span>
+            </div>
+            <div class="details">
+                <h1 class="title">Installing VS Code & How Websites Works | Web-dev Course - Tutorial #1</h1>
+                <p>
+                    <span class="cname">CodeWithHarry</span>
+                    &bull;
+                    <span class="views">727K</span>
+                    views &bull;
+                    <span class="months">2 months</span>
+                    ago
+                </p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
