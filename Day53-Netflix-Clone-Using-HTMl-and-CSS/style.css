@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/bg_img.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    width: 100vw;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main nav {
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    position: relative;
+    row-gap: 23px;
+    padding: 0px 30px;
+}
+
+.line {
+    height: 8px;
+    background-color: #232323;
+    position: relative;
+    z-index: 20;
+}
+
+.btn-txt {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.4);
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid rgba(246, 238, 238, 0.4);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(246, 238, 238, 0.4);
+    font-weight: 600;
+}
+
+input {
+    padding: 7px 101px 8px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.4);
+    font-weight: 600;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+
+
+.secImg {
+    position: relative;
+    overflow: clip;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    width: 555px;
+}
+
+
+.faq {
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 14px auto;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding-left: 60px;
+}
+
+footer div {
+    padding: 18px 0px;
+}
+
+footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(4) {
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+    .item{
+        align-items: center;
+    }
+}
